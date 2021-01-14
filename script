@@ -1,0 +1,5 @@
+define command{
+        command_name    check_between_route
+        command_line    $USER1$/trace_time $ARG1$ $ARG2$ $ARG3$ $ARG4$ $ARG5$
+         }
+ check_command            check_between_route!x.x.x.x!sx.x.x.x!dx.x.x.x!300!600
